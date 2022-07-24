@@ -1,11 +1,13 @@
 import type { NextPage } from 'next'
-import CustomAppBar from '../component/CustomAppBar'
+import CustomAppBar from '../components/CustomAppBar'
+import MainContainer from '../containers/MainContainer'
 
 const Home: NextPage = () => {
   return (
     <>
       <CustomAppBar />
       <CustomAppBar />
+      <MainContainer />
     </>
   )
 }

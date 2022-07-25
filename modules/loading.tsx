@@ -8,7 +8,7 @@ export const setLoading = loadingState => ({
 
 // Store State Lists
 const initialState = {
-    loadingState: false
+    loadingState: false,
 };
 
 // Switch / Case Redux Actions
